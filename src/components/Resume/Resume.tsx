@@ -52,8 +52,8 @@ export default function Resume() {
               : "Should you still have any questions, feel free to contact me. Additionally, you can download my resume below."}
           </p>
           <a
-            download="Rutwij_resume.pdf"
-            href={require("../../assets/documents/Rutwij_resume.pdf")}
+            download="sujal_resume.pdf"
+            href={require("../../assets/documents/sujal_resume.pdf")}
           >
             <button
               className="download"

@@ -13,7 +13,7 @@ export default function ContextMenu() {
   const [state, dispatch] = useContext(store);
 
   const copyEmail = () => {
-    navigator.clipboard.writeText("patil.rutwij@gmail.com");
+    navigator.clipboard.writeText("sujalrsalgaonkar@gmail.com");
     toast(state.language === "english" ? "Copied E-Mail" : "Copied E-Mail!", {
       icon: "📧",
       position: "top-left",
@@ -32,7 +32,7 @@ export default function ContextMenu() {
   };
 
   const copyURL = () => {
-    navigator.clipboard.writeText("https://twitter.com/RutwijPatil5");
+    navigator.clipboard.writeText("https://twitter.com/sujalsalgaonkar");
     toast(state.language === "english" ? "Copied URL" : "Copied URL!", {
       icon: "🌐",
       position: "top-left",
@@ -59,7 +59,7 @@ export default function ContextMenu() {
     >
       <a
         target="_blank"
-        href="https://github.com/Rutwij-Patil/portfolio"
+        href="https://github.com/Sujal-Salgaonkar/portfolio"
         onMouseDown={playAudio}
         onMouseUp={playAudio}
       >
@@ -71,7 +71,7 @@ export default function ContextMenu() {
 
       <a
         target="_blank"
-        href="https://github.com/Rutwij-Patil"
+        href="https://github.com/sujalsalgaonkar16"
         onMouseDown={playAudio}
         onMouseUp={playAudio}
       >
@@ -85,7 +85,7 @@ export default function ContextMenu() {
 
       <a
         target="_blank"
-        href="https://www.linkedin.com/in/rutwij-patil-7526b4220/"
+        href="https://www.linkedin.com/in/sujal-salgaonkar-86911325b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
         onMouseDown={playAudio}
         onMouseUp={playAudio}
       >

@@ -24,8 +24,8 @@ export default function SkillTab(props: SkillTabProps) {
       <h3 className={`head ${state.darkmode ? "white" : ""}`}>{returnTabName(topic, state.language)}</h3>
       {topic === "languages" ? (
         <div className="skill-tab-list languages">
-          <Image source="c++" name="C++" />
           <Image source="swift" name="Swift" />
+          <Image source="c++" name="C++" />
           <Image source="javascript" name="JavaScript" />
           <Image source="css" name="CSS" />
           <Image source="html" name="HTML" />
@@ -38,13 +38,7 @@ export default function SkillTab(props: SkillTabProps) {
           <Image source="swiftui" name="Swiftui" />
           <Image source="appstore" name="App Store" />
           <Image source="testflight" name="Testflight" />
-        </div>
-      ) : null}
-      {topic === "Python" ? (
-        <div className="skill-tab-list">
-          <Image source="flask" name="Flask" />
-          <Image source="sockets" name="Sockets" />
-          <Image source="numpy" name="Numpy" />
+          <Image source="xcode" name="XCode" />
         </div>
       ) : null}
       {topic === "collaborative" ? (
@@ -62,17 +56,12 @@ export default function SkillTab(props: SkillTabProps) {
       {topic === "code" ? (
         <div className="skill-tab-list one-item">
           <Image source="vscode" name="VSCode" />
-          <Image source="vim" name="Vim" />
         </div>
       ) : null}
       {topic === "Applications" ? (
         <div className="skill-tab-list one-item">
           <Image source="xcode" name="XCode" />
-          <Image source="pycharm" name="Pycharm" />
-          <Image source="postman" name="Postman" />
-          <Image source="Insomnia" name="Insomnia" />
-          <Image source="firebase" name="Firebase" />
-          <Image source="matlab" name="Matlab" />
+          <Image source="firebase" name="Firebase" />         
         </div>
       ) : null}
     </motion.div>

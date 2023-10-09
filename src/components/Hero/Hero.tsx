@@ -18,8 +18,8 @@ export default function Hero() {
         transition={{ type: "spring", duration: 0.6 }}
       >
         <img
-          className="img-avatar"
-          src={require("../../assets/images/avatar_test.png")}
+          className="avatar_test"
+          src={require("/Users/sujalsalgaonkar/portfolio-4/src/assets/images/avatar_test.jpg")}
         />
       </motion.div>
 
@@ -33,7 +33,7 @@ export default function Hero() {
           y: { duration: 0.55, type: "spring" },
         }}
       >
-        Rutwij Patil
+        SUJAL SALGAONKAR
       </motion.h2>
 
       <motion.h1
@@ -46,7 +46,7 @@ export default function Hero() {
           y: { duration: 0.6, type: "spring" },
         }}
       >
-        {state.language === "english" ? "iOS App & Backend Developer" : "iOS App & Backend Developer"}
+        {state.language === "english" ? "Ios App Developer" : "iOS App & Backend Developer"}
       </motion.h1>
 
       <motion.h4

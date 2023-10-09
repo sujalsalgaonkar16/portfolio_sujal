@@ -12,7 +12,7 @@ export default function Manifest () {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
         >
-            <h1>{state.language === "english" ? "Ambitious developer with a passion to solve modern problems!" : "Ambitious developer with a passion to solve modern problems!"}</h1>
+            <h1>{state.language === "english" ? "Ambitious Ios App Developer and UI/UX Designer with a passion to solve modern problems!" : "Ambitious developer with a passion to solve modern problems!"}</h1>
         </motion.a>
     </div>
   );

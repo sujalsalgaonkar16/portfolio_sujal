@@ -22,7 +22,6 @@ export default function Skills() {
         </div>
         <div className="skill-grid-second-row">
           <SkillTab topic="iOS" />
-          <SkillTab topic="Python" />
         </div>
         <div className="skill-grid-third-row">
           <SkillTab topic="collaborative" />
